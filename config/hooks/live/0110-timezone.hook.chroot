@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -e
+
+echo 'America/Sao_Paulo' > /etc/timezone

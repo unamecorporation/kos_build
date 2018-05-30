@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+echo ' # KEYBOARD CONFIGURATION FILE
+
+# Consult the keyboard(5) manual page.
+
+XKBMODEL="pc105"
+XKBLAYOUT="br"
+XKBVARIANT=""
+XKBOPTIONS=""
+
+BACKSPACE="guess" ' > /etc/default/keyboard

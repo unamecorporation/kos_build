@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+set -o pipefail #Bashism
+
+lb config noauto \
+	--iso-publisher "Kurupira" \
+	--iso-volume "Kurupira Live" \
+	--linux-packages linux-image \
+	--memtest memtest86 \
